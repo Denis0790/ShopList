@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_layout"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed_enter_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ed_hint_enter"
+        android:inputType="text"
+        android:background="@color/white"
+        android:textSize="@dimen/app_text_size"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:layout_marginStart="@dimen/app_margin_start"
+        android:layout_marginEnd="@dimen/app_margin_end"
+        android:padding="@dimen/ed_enter_padding"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:layout_marginStart="@dimen/app_margin_start"
+        android:layout_marginEnd="@dimen/app_margin_end"
+        android:text="@string/btn_add_text"
+        android:textColor="@color/black"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/app_margin_top"
+        android:layout_marginStart="@dimen/app_margin_start"
+        android:layout_marginEnd="@dimen/app_margin_end"
+        android:background="@color/white"/>
+
+
+
+
+
+
+</LinearLayout>

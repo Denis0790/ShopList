@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shopping_List</string>
+    <string name="ed_hint_enter">enter text</string>
+    <string name="btn_add_text">ДОБАВИТЬ</string>
+</resources>
